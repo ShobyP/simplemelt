@@ -1,0 +1,14 @@
+# Install Firebase CLI globally (if not already installed)
+npm install -g firebase-tools
+
+# Login to your Firebase account
+firebase login
+
+# Initialize Firebase in your project directory
+firebase init
+
+# Deploy your project to Firebase
+firebase deploy
+
+#  with current settings, no need to perform firebase init. just run firebase deploy.
+firebase deploy
